@@ -1,38 +1,17 @@
 @import 'tailwindcss';
 @import '../lib/styles/fonts.css';
+@import '../lib/styles/colors.css';
 
 :root {
   --font-jakarta: "Plus Jakarta Sans", sans-serif;
   --font-lato: "lato", sans-serif;
 
   --font-default: var(--font-lato);
-
-  --project-bg-pink: rgba(31, 7, 38, 1);
-  --brand-pink-primary: rgba(235, 80, 173, 1);
-  --brand-pink-secondary: rgba(78, 42, 80, 1);
-  --block-bg-with-opacity: rgba(78, 42, 80, 0.08);
-  --input-bg: rgba(230, 235, 245, 0.06);
-  --subtitle-white: rgba(230, 235, 245, 1);
-  --text-regular: rgba(157, 148, 171, 1);
-  --gradien-bg-secondary: rgba(110, 58, 112, 1);
-  --button-text-white: rgba(249, 249, 251, 1);
 }
 
 @theme {
   --font-jakarta: var(--font-jakarta);
   --font-lato: var(--font-lato);
-
-  --color-project-bg: var(--project-bg-pink);
-  --color-launcher-widget-bg: var(--block-bg-with-opacity);
-  --color-input-bg: var(--input-bg);
-  --color-title: var(--brand-pink-primary);
-  --color-subtitle: var(--subtitle-white);
-  --color-regular-text: var(--text-regular);
-  --color-button-bg-primary: var(--brand-pink-primary);
-  --color-button-bg-secondary: var(--brand-pink-secondary);
-  --color-gradient-primary-bg: var(--brand-pink-primary);
-  --color-gradient-bg-secondary: var(--gradient-bg-secondary);
-  --color-button-text: var(--button-text-white);
 }
 
 html,
