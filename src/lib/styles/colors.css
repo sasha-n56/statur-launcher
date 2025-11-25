@@ -1,7 +1,0 @@
-:root {
-  --fg-stay-darko: #1F0726
-}
-
-@theme {
-  --color-stay-darko: var(--fg-stay-darko)
-}
