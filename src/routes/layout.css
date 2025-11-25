@@ -1,11 +1,19 @@
 @import 'tailwindcss';
 @import '../lib/styles/fonts.css';
 
-@theme {
+:root {
   --font-jakarta: "Plus Jakarta Sans", sans-serif;
-  --font-default: "lato", sans-serif;
+  --font-lato: "lato", sans-serif;
+
+  --font-default: var(--font-lato)
 }
 
-html, body {
+@theme {
+  --font-jakarta: var(--font-jakarta);
+  --font-lato: var(--font-lato);
+}
+
+html,
+body {
   font-family: var(--font-default);
 }
