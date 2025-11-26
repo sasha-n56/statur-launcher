@@ -1,25 +1,11 @@
-:root { 
-  --brand-pink-primary: #EB50AD;
-  --brand-pink-secondary: #4E2A50;
-  --text-white: #E6EBF5;
-  --text-regular: #9D94AB;
-  --block-bg: #E6EBF5;
-  --button-text-white: #F9F9FB;  
-  --text-pink: #FF59BD;
-  --gradient-secondary: #6E3A70;
-  --project-bg-pink: #1F0726;
+:root {
+  --main-accent: #EB50AD;
+  --main-accent-light: #FF59BD;
+  --bg-base: #E6EBF5
 }
 
 @theme {
-  --color-project-bg: var(--project-bg-pink);
-  --color-block-bg: var(--block-bg);
-  --color-title: var(--brand-pink-primary);
-  --color-subtitle: var(--text-white);
-  --color-regular-text: var(--text-regular);
-  --color-button-bg-primary: var(--brand-pink-primary);
-  --color-button-bg-secondary: var(--brand-pink-secondary);
-  --color-gradient-primary-bg: var(--brand-pink-primary);
-  --color-gradient-secondary-bg: var(--gradient-secondary);
-  --color-button-text: var(--button-text-white);
-  --color-text-pink: var(--text-pink);
+  --color-main-accent: var(--main-accent);
+  --color-main-accent-light: var(--main-accent-light);
+  --color-bg-base: var(--bg-base)
 }
