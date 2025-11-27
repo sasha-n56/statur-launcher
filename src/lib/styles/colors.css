@@ -1,0 +1,25 @@
+:root { 
+  --main-accent: #EB50AD;
+  --main-accent-light: #FF59BD;
+  --second-accent: #4E2A50;
+  --second-accent-light: #6E3A70;
+  --base: #E6EBF5;
+  --stay-dark: #1F0726;
+  --stay-white: #F9F9FB;
+  --grey-dark: #9D94AB;
+  --grey-light: #716880;
+  --lines-light: #CCCDDB;
+}
+
+@theme {
+  --color-main-accent: var(--main-accent);
+  --color-main-accent-light: var(--main-accent-light);
+  --color-second-accent: var(--second-accent);
+  --color-second-accent-light: var(--second-accent-light);
+  --color-base: var(--base);
+  --color-stay-white: var(--stay-white);
+  --color-stay-dark: var(--stay-dark);
+  --color-grey-dark: var(--grey-dark);
+  --color-grey-light: var(--grey-light);
+  --color-lines-light: var(--lines-light);
+}
