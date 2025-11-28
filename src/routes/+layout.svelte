@@ -1,12 +1,14 @@
 <script lang="ts">
 	import './layout.css';
-	import favicon from '$lib/assets/favicon.svg';
+	import { svelteFavicon } from '$lib/assets';
 
 	let { children } = $props();
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
+	<link rel="icon" href={svelteFavicon} />
 </svelte:head>
 
-{@render children()}
+<div class="flex min-h-screen w-full overflow-hidden bg-stay-dark">
+	{@render children()}
+</div>
