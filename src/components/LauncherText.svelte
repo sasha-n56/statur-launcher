@@ -1,7 +1,11 @@
 <script lang="ts">
-	import { LAUNCHER_STEPS_DATA } from '../const';
+	interface ILauncherTextDataProps {
+		title: string;
+		subtitle: string;
+		description: string;
+	}
 
-	const { title, subtitle, description } = LAUNCHER_STEPS_DATA[0];
+	const { title, subtitle, description }: ILauncherTextDataProps = $props();
 </script>
 
 <div class="flex flex-col items-center">
