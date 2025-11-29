@@ -1,6 +1,6 @@
-import {LAUNCHER_STEPS_DATA, WALLETS} from './launcherData.ts';
+import {WALLET_SIGN_IN_TEXT_DATA, WALLETS} from './launcherData.ts';
 
 export {
-  LAUNCHER_STEPS_DATA,
+  WALLET_SIGN_IN_TEXT_DATA,
   WALLETS
 };
