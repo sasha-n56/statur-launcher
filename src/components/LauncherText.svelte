@@ -1,15 +1,15 @@
 <script lang="ts">
 	interface ILauncherTextDataProps {
 		title: string;
-		subtitle: string;
+		label: string;
 		description: string;
 	}
 
-	const { title, subtitle, description }: ILauncherTextDataProps = $props();
+	const { title, label, description }: ILauncherTextDataProps = $props();
 </script>
 
 <div class="flex flex-col items-center">
-	<p class="text-[18px]/[22px] font-bold font-jakarta text-main-accent">{title}</p>
-	<h2 class="mb-4 text-[46px]/[56px] font-bold font-jakarta text-base">{subtitle}</h2>
-	<div class="text-4/[28px] text-center text-grey-dark">{description}</div>
+	<span class="text-lg leading-tight font-bold font-jakarta text-main-accent">{label}</span>
+	<h1 class="mb-4 text-[46px] leading-tight font-bold font-jakarta text-base">{title}</h1>
+	<p class="text-center text-grey-dark">{description}</p>
 </div>

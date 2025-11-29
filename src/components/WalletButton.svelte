@@ -10,8 +10,8 @@
 
 <button
 	onclick={() => onClick(name)}
-	class="flex w-full items-center justify-between rounded-xl bg-linear-to-r from-main-accent to-second-accent-light p-[7px_7px_7px_14px] transition active:scale-95"
+	class="flex w-full items-center justify-between rounded-xl bg-linear-to-r from-main-accent to-second-accent-light p-2 pl-4 transition active:scale-95"
 >
-	<span class="text-4/[22px] font-bold text-stay-white">Connect {name} Account</span>
+	<span class="font-bold text-stay-white">Connect {name} Account</span>
 	<img src={icon} alt={name} />
 </button>
