@@ -8,8 +8,11 @@
     "create": "Create",
     "join": "Join",
     "label": "Label",
-    "key": "Key",
-    "disabled":"Disabled"
+    "remove":"Remove",
+    "disabled":"Disabled",
+    "change":"Change",
+    "renew":"Renew",
+    "sort":"Sort" 
   },
   "launcher": {
     "walletSignInStep": {
@@ -78,32 +81,37 @@
     "metricFields": {
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa",
       "unit":"Unit",
-      "weight":"Weight"
+      "weight":"Weight",
+      "key": "Key",
+      "dropdown": {
+        "disableMetric":"Disable Metric",
+        "editMetricFields":"Edit Metric Fields"
+      }
     },
-    "settingsDashboardLayout":{
-      "dashboardLayout":"Dashboard Layout", 
+    "dashboardLayout":{ 
       "description":"If you want a leaderboard sidebar, choose the first option and define which of the Metric Fields will be used to rank your top 10 users. If you only need a list of users, without a static sidebar top rank leaderboard, opt for the second option.",
       "leaderboardPlusAccountList":"Leaderboard + Account list",
       "accountListOnly":"Account list only",
       "accountsSorting":"Accounts Sorting",
-      "leaderboardTracking":{
+      "leaderboardTrackingField":{
         "title":"Leaderboard tracking field",
         "description": "Define which of your tracking Field will be used to set-up the leaderboard of the top 10 accounts", 
         "trackingField":"Tracking Field" 
       },
-      "accountDefault": {
+      "accountDefaultSorting": {
         "title":"Accounts default sorting",
         "description":"Define which of your tracking Field will be used to sort the accounts on the dashboard by default"
       }
     },
     "profilesLayout":{
-      "enableUserProfile":"Enable User Profile Page",
+      "title":"Enable User Profile Page",
       "description":"If you wish so, you can generate user profile pages. Use this settings screen to define which metric fields to show on this pages, their order, and which infographic style use to display each metric field."
       "accountPageFieldsOrder":"Account Page Fields Order",
-      "trackingFields":"Tracking Fields"
+      "trackingFields":"Tracking Fields",
+      "addNewSection":"Add New Section"
     },
     "badges":{
-      "description":"Create badges to assign to your users. Tie each badge to a metric achievement,"
+      "description":"Create badges to assign to your users. Tie each badge to a metric achievement,",
       "createBadge":"Create Badge",
       "dropdown":{
         "editBadge":"Edit Badge",
@@ -126,18 +134,24 @@
         "title":"Mechanics",
         "description": "Time to create the mechanics of the badge, choose one of the tracking fields and a value to reach.",
         "valuetoReach":"Value to Reach",
-        "valueDireciton":"Value direciton",
+        "valueDireciton":"Value direction",
         "EqualsOrMore":"Equals or more then “Value to reach”",
         "EqualsOrLess":"Equals or less then “Value to reach”",
         "ExactValue":"Exact value =  “Value to reach”"
       },
     }
-    "":{
-      "":"",
+    "apiAndPayment":{
+      "description":"Monitor your API daily calls and manage or renew your payment plan",
+      "yourPlan":"Your Plan",
+      "expiresIn":"Expires in {count} Days"
     },
-    "":{
-      "":"",""
-    },
+  },
+  "dashboard": {
+    "leaderBoard":"LeaderBoard",
+    "accounts":"Accounts"
+    "user": {
+      "address":"Address"
+    }
   }
 }
  
