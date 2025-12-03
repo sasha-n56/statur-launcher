@@ -7,7 +7,7 @@
     "projectLauncher":"Project Launcher",
     "create": "Create",
     "join": "Join",
-    "label": "Label",
+    "createBadge":"Create Badge",
     "remove":"Remove",
     "disabled":"Disabled",
     "change":"Change",
@@ -73,8 +73,8 @@
     "administration":"Administration"
   },
   "administration": {
+    "title":"Settings menu",
     "settingsMenu": {
-      "title":"Settings menu",
       "metricFields":"Metric Fields",
       "dashboardLayout":"Dashboard Layout",
       "profilesLayout":"Profiles Layout",
@@ -84,9 +84,12 @@
     },
     "metricFields": {
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa",
-      "unit":"Unit",
-      "weight":"Weight",
-      "key": "Key",
+      "table":{
+        "unit":"Unit",
+        "label": "Label",
+        "weight":"Weight",
+        "key": "Key"
+      },
       "dropdown": {
         "disableMetric":"Disable Metric",
         "editMetricFields":"Edit Metric Fields"
@@ -108,54 +111,53 @@
       }
     },
     "profilesLayout":{
-      "title":"Enable User Profile Page",
-      "description":"If you wish so, you can generate user profile pages. Use this settings screen to define which metric fields to show on this pages, their order, and which infographic style use to display each metric field."
+      "lable":"Enable User Profile Page",
+      "description":"If you wish so, you can generate user profile pages. Use this settings screen to define which metric fields to show on this pages, their order, and which infographic style use to display each metric field.",
       "accountPageFieldsOrder":"Account Page Fields Order",
       "trackingFields":"Tracking Fields",
       "addNewSection":"Add New Section"
     },
     "badges":{
       "description":"Create badges to assign to your users. Tie each badge to a metric achievement,",
-      "createBadge":"Create Badge",
       "dropdown":{
         "editBadge":"Edit Badge",
         "deleteBadge":"Delete Badge"
       },
-      "badgeName":{
+      "stepName":{
         "title":"Badge Name",
-        "description": "To create your customized badge, start with a name to describe it’s function",
+        "description": "To create your customized badge, start with a name to describe it’s function"
       },
-      "badgeDescription":{
+      "stepDescription":{
         "title":"Description",
         "description": "Please, add more information about this badge meaning and functionalities.",
         "inputPlaceholder": "Describe your project"
       },
-      "badgeIcon":{
+      "stepIcon":{
         "title":"Badge Icon",
         "description": "Select the badge icon from this placeholders available (image for example use only, you can add yours in the code)",
       },
-      "mechanics":{
+      "stepMechanics":{
         "title":"Mechanics",
         "description": "Time to create the mechanics of the badge, choose one of the tracking fields and a value to reach.",
         "valuetoReach":"Value to Reach",
         "valueDireciton":"Value direction",
-        "EqualsOrMore":"Equals or more then “Value to reach”",
-        "EqualsOrLess":"Equals or less then “Value to reach”",
-        "ExactValue":"Exact value =  “Value to reach”"
+        "equalsOrMore":"Equals or more then “Value to reach”",
+        "equalsOrLess":"Equals or less then “Value to reach”",
+        "exactValue":"Exact value =  “Value to reach”"
       },
-    }
+    },
     "apiAndPayment":{
       "description":"Monitor your API daily calls and manage or renew your payment plan",
       "yourPlan":"Your Plan",
-      "expiresIn":"Expires in {count} Days"
+      "expires":"Expires in {count} Days"
     },
   },
   "dashboard": {
     "leaderBoard":"LeaderBoard",
-    "accounts":"Accounts",
+    "accounts":"Accounts"
   },
   "user": {
-    "address":"Address",  
+    "address":"Address" 
   },
   "finaliseSetup":{
     "label":"Finalise Setup",
@@ -167,11 +169,6 @@
       "dashboard":"Dashboard data layout",
       "profiles": "Profiles data layout"
     }
-  },
-  "missingKeys":{
-    "label":"Project not valid",
-    "title":"Missing Keys",
-    "description":"It seems like the Keys are not present in the project code. Please fix the issue to proceed"  
   },
   "error":{
     "label":"Project not valid",
