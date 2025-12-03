@@ -1,10 +1,16 @@
 <script lang="ts">
-	import { PAYMENT_PLAN_TEXT_DATA } from '$const';
+	import { t } from 'svelte-i18n';
 	import LauncherText from './LauncherText.svelte';
 	import LauncherWidget from './LauncherWidget.svelte';
 	import TierList from './TierList.svelte';
 
-	const { label, title, description } = PAYMENT_PLAN_TEXT_DATA;
+	const paymentPlanTextData = {
+		label: $t('launcher.paymentPlanStep.label'),
+		title: $t('launcher.paymentPlanStep.title'),
+		description: $t('launcher.paymentPlanStep.description')
+	};
+
+	const { label, title, description } = paymentPlanTextData;
 </script>
 
 <LauncherWidget>

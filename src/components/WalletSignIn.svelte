@@ -4,7 +4,7 @@
 	import LauncherWidget from './LauncherWidget.svelte';
 	import WalletList from './WalletList.svelte';
 
-	export const walletSignInTextData = {
+	const walletSignInTextData = {
 		label: $t('launcher.walletSignInStep.label'),
 		title: $t('launcher.walletSignInStep.title'),
 		description: $t('launcher.walletSignInStep.description')

@@ -26,8 +26,8 @@
       "pricePerMonth": "${amount}",
       "apiCalls":"API calls",
       "perMonth": "/mo",
-      "perDay": "/day",
-      "ada": "ADA"
+      "perDay": "{count}/day",
+      "ada": "{count} ADA"
     },
     "paymentProcessingStep": {
 			"label": "Payment Processing...",

@@ -9,7 +9,6 @@ export default defineConfig({
     alias: {
       $components: path.resolve('./src/components'),
       $types: path.resolve('./src/types'),
-      $const: path.resolve('./src/const'),
     },
   },
 });

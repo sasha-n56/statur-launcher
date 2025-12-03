@@ -1,20 +1,21 @@
 <script lang="ts">
+	import { t } from 'svelte-i18n';
 	import Button from './Button.svelte';
 	import PaymentTierButton from './PaymentTierButton.svelte';
 
-	const TIER_LIST = [
-		{ id: '1', price: '0', ada: '0', apiCalls: '100' },
-		{ id: '2', price: '10', ada: '20', apiCalls: '1000' },
-		{ id: '3', price: '50', ada: '100', apiCalls: '5000' },
-		{ id: '4', price: '100', ada: '200', apiCalls: '10000' }
-	];
-
-	interface ITier {
+	export interface ITier {
 		id: string;
 		price: string;
 		ada: string;
 		apiCalls: string;
 	}
+
+	const tierList: ITier = [
+		{ id: '1', amount: '0', ada: '0', apiCalls: '100' },
+		{ id: '2', amount: '10', ada: '20', apiCalls: '1,000' },
+		{ id: '3', amount: '50', ada: '100', apiCalls: '5,000' },
+		{ id: '4', amount: '100', ada: '200', apiCalls: '10,000' }
+	];
 
 	let selectedTier: ITier | null = $state(null);
 
@@ -29,9 +30,11 @@
 
 <div class="flex w-full flex-col gap-y-8">
 	<div class="grid w-full grid-cols-2 gap-3">
-		{#each TIER_LIST as tier}
+		{#each tierList as tier}
 			<PaymentTierButton {tier} {selectedTier} onClick={selectTier} />
 		{/each}
 	</div>
-	<Button onClick={savePlan} isDisabled={!selectedTier}>Pay & Proceed</Button>
+	<Button onClick={savePlan} isDisabled={!selectedTier}>
+		{$t('launcher.paymentPlanStep.actionButton')}
+	</Button>
 </div>
