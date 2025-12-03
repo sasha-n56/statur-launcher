@@ -68,6 +68,10 @@
 				"Click the button below to join the project, access the administration panel and finalize the project setup"
 		},
   },
+  "header":{
+    "dashboard":"Dashboard",
+    "administration":"Administration"
+  },
   "administration": {
     "settingsMenu": {
       "title":"Settings menu",
@@ -148,10 +152,38 @@
   },
   "dashboard": {
     "leaderBoard":"LeaderBoard",
-    "accounts":"Accounts"
-    "user": {
-      "address":"Address"
+    "accounts":"Accounts",
+  },
+  "user": {
+    "address":"Address",  
+  },
+  "finaliseSetup":{
+    "label":"Finalise Setup",
+    "title":"Finalise App Setup",
+    "description": {
+      "prefix":"Please, finalize the app configuration in the administration panel.",
+      "mandatory": "{fields}, {dashboard} and {profiles} are mandatory configurations", 
+      "fields":"Tracking fields",
+      "dashboard":"Dashboard data layout",
+      "profiles": "Profiles data layout"
     }
-  }
+  },
+  "missingKeys":{
+    "label":"Project not valid",
+    "title":"Missing Keys",
+    "description":"It seems like the Keys are not present in the project code. Please fix the issue to proceed"  
+  },
+  "error":{
+    "label":"Project not valid",
+    "documentation":"Documentation",
+    "missingKeys":{
+      "title":"Missing Keys",
+      "description":"It seems like the Keys are not present in the project code. Please fix the issue to proceed"  
+    },
+    "missingKeys":{
+      "title":"Database Error",
+      "description":"It seems like there is a problem connecting with your database. Please fix the issue to proceed"  
+    }
+  }  
 }
  
