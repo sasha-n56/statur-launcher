@@ -2,6 +2,7 @@
 	import { PAYMENT_PLAN_TEXT_DATA } from '$const';
 	import LauncherText from './LauncherText.svelte';
 	import LauncherWidget from './LauncherWidget.svelte';
+	import TierList from './TierList.svelte';
 
 	const { label, title, description } = PAYMENT_PLAN_TEXT_DATA;
 </script>

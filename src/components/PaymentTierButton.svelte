@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { ITier } from '../../types';
+	import type { ITier } from '$types';
 
 	interface ITierProps {
 		tier: ITier;
@@ -12,7 +12,7 @@
 </script>
 
 <button
-	class={`flex w-full flex-col items-center justify-between gap-y-1.5 rounded-xl border bg-block-background p-3 ${selectedTier?.id === id ? 'border-brand-pink-light' : 'border-transparent'}`}
+	class={`flex w-full flex-col items-center justify-between gap-y-1.5 rounded-xl border bg-base p-3 ${selectedTier?.id === id ? 'border-main-accent' : 'border-transparent'}`}
 	onclick={() => onClick(tier)}
 >
 	<div class="flex w-full items-center justify-between">

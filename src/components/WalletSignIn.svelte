@@ -1,10 +1,15 @@
 <script lang="ts">
-	import { WALLET_SIGN_IN_TEXT_DATA } from '$const';
+	import { t } from 'svelte-i18n';
 	import LauncherText from './LauncherText.svelte';
 	import LauncherWidget from './LauncherWidget.svelte';
 	import WalletList from './WalletList.svelte';
 
-	const { label, title, description } = WALLET_SIGN_IN_TEXT_DATA;
+	export const walletSignInTextData = {
+		label: $t('launcher.walletSignInStep.label'),
+		title: $t('launcher.walletSignInStep.title'),
+		description: $t('launcher.walletSignInStep.description')
+	};
+	const { label, title, description } = walletSignInTextData;
 </script>
 
 <LauncherWidget>

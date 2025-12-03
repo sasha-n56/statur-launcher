@@ -13,7 +13,7 @@
 
 <button
 	onclick={() => onClick()}
-	class="w-full rounded-[100px] bg-brand-pink-light py-2 text-base/[22px] text-text-white {style}"
+	class="w-full rounded-[100px] bg-main-accent py-2 text-stay-white {style}"
 	disabled={isDisabled}
 >
 	{@render children()}

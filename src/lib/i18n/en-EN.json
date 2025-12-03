@@ -6,8 +6,7 @@
     "logout": "Logout",
     "projectLauncher":"Project Launcher",
     "create": "Create",
-    "join": "Join",
-
+    "join": "Join"
   },
   "launcher": {
     "walletSignInStep": {
@@ -17,50 +16,51 @@
       "label": "Welcome!",
       "title": "Wallet Sign-in",
       "description": "Your available Wallets are listed here below. Click one to connect the desired wallet and Sign in",
-      "actionButton": "Connect {name} Account",
+      "actionButton": "Connect {name} Account"
     },
     "paymentPlanStep": {
 			"label": "Payment Plan",
 			"title": "Choose A Tier",
 			"description": "Select one of the tiers according to the API calls. You can renew the plan from you dashboard each month.",
       "actionButton": "Pay & Proceed",
+      "pricePerMonth": "${amount}",
       "apiCalls":"API calls",
-      "perMonth": "/mo"
+      "perMonth": "/mo",
       "perDay": "/day",
-      "ada": "ADA",
+      "ada": "ADA"
     },
-    "paymentProcessingStep":{
+    "paymentProcessingStep": {
 			"label": "Payment Processing...",
 			"title": "Choose A Tier",
-			"description": "You will be redirected shortly",
+			"description": "You will be redirected shortly"
     },
     "projectInfoStep": {
 			"title": "Project Info",
 			"description": "Define your Statur Project name and add a short description for users to read. You cannot change this data later.",
       "projectName": "Project Name",
       "describeYourProject": "Describe your project",
-      "actionButton": "Create Project",
-    }
+      "actionButton": "Create Project"
+    },
     "brandingStep": {
       "title": "Branding",
-      "description": "Pick a color from the palette below. You can use the top right switch to check both light and dark modes",
+      "description": "Pick a color from the palette below. You can use the top right switch to check both light and dark modes"
     },
 		"createAccountStep": {
 			"label": "Welcome Administrator!",
 			"title": "Create Account",
 			"description": "Create your public account name and choose an avatar.",
-      "accountName": "Account Name",
+      "accountName": "Account Name"
 		},
 		"processingTransactionStep": {
 			"label": "Processing transaction...",
 			"title": "Creating Account",
-			"description": "Please bear with us, you’ll be redirected soon.",
+			"description": "Please bear with us, you’ll be redirected soon."
 		},
     "accountReadyStep": {
 			"label": "Account Ready for:",
 			"description":
-				"Click the button below to join the project, access the administration panel and finalize the project setup",
-		},
-  },
+				"Click the button below to join the project, access the administration panel and finalize the project setup"
+		}
+  }
 }
 

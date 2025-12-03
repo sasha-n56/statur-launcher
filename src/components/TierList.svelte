@@ -1,7 +1,6 @@
 <script lang="ts">
-	import type { ITier } from '../types';
-	import Button from './UI/Button.svelte';
-	import PaymentTierButton from './UI/PaymentTierButton.svelte';
+	import Button from './Button.svelte';
+	import PaymentTierButton from './PaymentTierButton.svelte';
 
 	const TIER_LIST = [
 		{ id: '1', price: '0', ada: '0', apiCalls: '100' },
