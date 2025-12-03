@@ -2,15 +2,9 @@
 	import { t } from 'svelte-i18n';
 	import Button from './Button.svelte';
 	import PaymentTierButton from './PaymentTierButton.svelte';
+	import type { ITier } from '$types/launcher';
 
-	export interface ITier {
-		id: string;
-		price: string;
-		ada: string;
-		apiCalls: string;
-	}
-
-	const tierList: ITier = [
+	const tierList: ITier[] = [
 		{ id: '1', amount: '0', ada: '0', apiCalls: '100' },
 		{ id: '2', amount: '10', ada: '20', apiCalls: '1,000' },
 		{ id: '3', amount: '50', ada: '100', apiCalls: '5,000' },

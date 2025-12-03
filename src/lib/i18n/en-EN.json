@@ -29,7 +29,7 @@
 			"title": "Choose A Tier",
 			"description": "Select one of the tiers according to the API calls. You can renew the plan from you dashboard each month.",
       "actionButton": "Pay & Proceed",
-      "pricePerMonth": "${amount}",
+      "pricePerMonth": "${count}",
       "apiCalls":"API calls",
       "perMonth": "/mo",
       "perDay": "{count}/day",
@@ -66,7 +66,7 @@
 			"label": "Account Ready for:",
 			"description":
 				"Click the button below to join the project, access the administration panel and finalize the project setup"
-		},
+		}
   },
   "header":{
     "dashboard":"Dashboard",
@@ -84,7 +84,7 @@
     },
     "metricFields": {
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa",
-      "table":{
+      "columns":{
         "unit":"Unit",
         "label": "Label",
         "weight":"Weight",
@@ -111,7 +111,7 @@
       }
     },
     "profilesLayout":{
-      "lable":"Enable User Profile Page",
+      "label":"Enable User Profile Page",
       "description":"If you wish so, you can generate user profile pages. Use this settings screen to define which metric fields to show on this pages, their order, and which infographic style use to display each metric field.",
       "accountPageFieldsOrder":"Account Page Fields Order",
       "trackingFields":"Tracking Fields",
@@ -134,7 +134,7 @@
       },
       "stepIcon":{
         "title":"Badge Icon",
-        "description": "Select the badge icon from this placeholders available (image for example use only, you can add yours in the code)",
+        "description": "Select the badge icon from this placeholders available (image for example use only, you can add yours in the code)"
       },
       "stepMechanics":{
         "title":"Mechanics",
@@ -144,13 +144,13 @@
         "equalsOrMore":"Equals or more then “Value to reach”",
         "equalsOrLess":"Equals or less then “Value to reach”",
         "exactValue":"Exact value =  “Value to reach”"
-      },
+      }
     },
     "apiAndPayment":{
       "description":"Monitor your API daily calls and manage or renew your payment plan",
       "yourPlan":"Your Plan",
       "expires":"Expires in {count} Days"
-    },
+    }
   },
   "dashboard": {
     "leaderBoard":"LeaderBoard",
@@ -177,7 +177,7 @@
       "title":"Missing Keys",
       "description":"It seems like the Keys are not present in the project code. Please fix the issue to proceed"  
     },
-    "missingKeys":{
+    "databaseError":{
       "title":"Database Error",
       "description":"It seems like there is a problem connecting with your database. Please fix the issue to proceed"  
     }

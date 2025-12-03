@@ -1,6 +1,6 @@
 <script lang="ts">
+	import type { ITier } from '$types/launcher';
 	import { t } from 'svelte-i18n';
-	import type { ITier } from './TierList.svelte';
 
 	interface ITierProps {
 		tier: ITier;
@@ -19,7 +19,7 @@
 	<div class="flex w-full items-center justify-between">
 		<div class="flex">
 			<p class="mr-[3px] text-[22px]/[28px] font-jakarta font-bold text-base">
-				{$t('launcher.paymentPlanStep.pricePerMonth', { values: { amount } })}
+				{$t('launcher.paymentPlanStep.pricePerMonth', { values: { count: amount } })}
 			</p>
 			<p class="self-end text-grey-dark text-[14px]/[24px]">
 				{$t('launcher.paymentPlanStep.perMonth')}
