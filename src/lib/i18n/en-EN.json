@@ -1,0 +1,186 @@
+{
+  "common": {
+    "statur": "Statur",
+    "next": "Next",
+    "back": "Back",
+    "logout": "Logout",
+    "projectLauncher":"Project Launcher",
+    "create": "Create",
+    "join": "Join",
+    "createBadge":"Create Badge",
+    "remove":"Remove",
+    "disabled":"Disabled",
+    "change":"Change",
+    "renew":"Renew",
+    "sort":"Sort" 
+  },
+  "launcher": {
+    "walletSignInStep": {
+      "eternl": "Eternl",
+      "flint": "Flint",
+      "lace": "Lace",
+      "label": "Welcome!",
+      "title": "Wallet Sign-in",
+      "description": "Your available Wallets are listed here below. Click one to connect the desired wallet and Sign in",
+      "actionButton": "Connect {name} Account"
+    },
+    "paymentPlanStep": {
+			"label": "Payment Plan",
+			"title": "Choose A Tier",
+			"description": "Select one of the tiers according to the API calls. You can renew the plan from you dashboard each month.",
+      "actionButton": "Pay & Proceed",
+      "pricePerMonth": "${count}",
+      "apiCalls":"API calls",
+      "perMonth": "/mo",
+      "perDay": "{count}/day",
+      "ada": "{count} ADA"
+    },
+    "paymentProcessingStep": {
+			"label": "Payment Processing...",
+			"title": "Choose A Tier",
+			"description": "You will be redirected shortly"
+    },
+    "projectInfoStep": {
+			"title": "Project Info",
+			"description": "Define your Statur Project name and add a short description for users to read. You cannot change this data later.",
+      "projectName": "Project Name",
+      "describeYourProject": "Describe your project",
+      "actionButton": "Create Project"
+    },
+    "brandingStep": {
+      "title": "Branding",
+      "description": "Pick a color from the palette below. You can use the top right switch to check both light and dark modes"
+    },
+		"createAccountStep": {
+			"label": "Welcome Administrator!",
+			"title": "Create Account",
+			"description": "Create your public account name and choose an avatar.",
+      "accountName": "Account Name"
+		},
+		"processingTransactionStep": {
+			"label": "Processing transaction...",
+			"title": "Creating Account",
+			"description": "Please bear with us, you’ll be redirected soon."
+		},
+    "accountReadyStep": {
+			"label": "Account Ready for:",
+			"description":
+				"Click the button below to join the project, access the administration panel and finalize the project setup"
+		}
+  },
+  "header":{
+    "dashboard":"Dashboard",
+    "administration":"Administration"
+  },
+  "administration": {
+    "title":"Settings menu",
+    "settingsMenu": {
+      "metricFields":"Metric Fields",
+      "dashboardLayout":"Dashboard Layout",
+      "profilesLayout":"Profiles Layout",
+      "badges":"Badges",
+      "administrators":"Administrators",
+      "apiAndPayment":"API & Payment"
+    },
+    "metricFields": {
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa",
+      "columns":{
+        "unit":"Unit",
+        "label": "Label",
+        "weight":"Weight",
+        "key": "Key"
+      },
+      "dropdown": {
+        "disableMetric":"Disable Metric",
+        "editMetricFields":"Edit Metric Fields"
+      }
+    },
+    "dashboardLayout":{ 
+      "description":"If you want a leaderboard sidebar, choose the first option and define which of the Metric Fields will be used to rank your top 10 users. If you only need a list of users, without a static sidebar top rank leaderboard, opt for the second option.",
+      "leaderboardPlusAccountList":"Leaderboard + Account list",
+      "accountListOnly":"Account list only",
+      "accountsSorting":"Accounts Sorting",
+      "leaderboardTrackingField":{
+        "title":"Leaderboard tracking field",
+        "description": "Define which of your tracking Field will be used to set-up the leaderboard of the top 10 accounts", 
+        "trackingField":"Tracking Field" 
+      },
+      "accountDefaultSorting": {
+        "title":"Accounts default sorting",
+        "description":"Define which of your tracking Field will be used to sort the accounts on the dashboard by default"
+      }
+    },
+    "profilesLayout":{
+      "label":"Enable User Profile Page",
+      "description":"If you wish so, you can generate user profile pages. Use this settings screen to define which metric fields to show on this pages, their order, and which infographic style use to display each metric field.",
+      "accountPageFieldsOrder":"Account Page Fields Order",
+      "trackingFields":"Tracking Fields",
+      "addNewSection":"Add New Section"
+    },
+    "badges":{
+      "description":"Create badges to assign to your users. Tie each badge to a metric achievement,",
+      "dropdown":{
+        "editBadge":"Edit Badge",
+        "deleteBadge":"Delete Badge"
+      },
+      "stepName":{
+        "title":"Badge Name",
+        "description": "To create your customized badge, start with a name to describe it’s function"
+      },
+      "stepDescription":{
+        "title":"Description",
+        "description": "Please, add more information about this badge meaning and functionalities.",
+        "inputPlaceholder": "Describe your project"
+      },
+      "stepIcon":{
+        "title":"Badge Icon",
+        "description": "Select the badge icon from this placeholders available (image for example use only, you can add yours in the code)"
+      },
+      "stepMechanics":{
+        "title":"Mechanics",
+        "description": "Time to create the mechanics of the badge, choose one of the tracking fields and a value to reach.",
+        "valuetoReach":"Value to Reach",
+        "valueDireciton":"Value direction",
+        "equalsOrMore":"Equals or more then “Value to reach”",
+        "equalsOrLess":"Equals or less then “Value to reach”",
+        "exactValue":"Exact value =  “Value to reach”"
+      }
+    },
+    "apiAndPayment":{
+      "description":"Monitor your API daily calls and manage or renew your payment plan",
+      "yourPlan":"Your Plan",
+      "expires":"Expires in {count} Days"
+    }
+  },
+  "dashboard": {
+    "leaderBoard":"LeaderBoard",
+    "accounts":"Accounts"
+  },
+  "user": {
+    "address":"Address" 
+  },
+  "finaliseSetup":{
+    "label":"Finalise Setup",
+    "title":"Finalise App Setup",
+    "description": {
+      "prefix":"Please, finalize the app configuration in the administration panel.",
+      "mandatory": "{fields}, {dashboard} and {profiles} are mandatory configurations", 
+      "fields":"Tracking fields",
+      "dashboard":"Dashboard data layout",
+      "profiles": "Profiles data layout"
+    }
+  },
+  "error":{
+    "label":"Project not valid",
+    "documentation":"Documentation",
+    "missingKeys":{
+      "title":"Missing Keys",
+      "description":"It seems like the Keys are not present in the project code. Please fix the issue to proceed"  
+    },
+    "databaseError":{
+      "title":"Database Error",
+      "description":"It seems like there is a problem connecting with your database. Please fix the issue to proceed"  
+    }
+  }  
+}
+ 
