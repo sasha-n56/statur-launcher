@@ -1,6 +1,7 @@
-import { register, init, locale, t } from 'svelte-i18n';
+import {addMessages,  init, locale, t } from 'svelte-i18n';
+import en from './en-EN.json';
 
-register('en', () => import('./en-EN.json'));
+addMessages('en', en);
 
 init({
   fallbackLocale: 'en',
