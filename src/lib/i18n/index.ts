@@ -1,4 +1,4 @@
-import { register, init, locale } from 'svelte-i18n';
+import { register, init, locale, t } from 'svelte-i18n';
 
 register('en', () => import('./en-EN.json'));
 
@@ -7,4 +7,4 @@ init({
   initialLocale: 'en'
 });
 
-export { locale };
+export { locale, t };
