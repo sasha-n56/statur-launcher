@@ -1,6 +1,6 @@
 <script>
 	const menuItems = [
-		{ label: 'Metric Fields', href: '/administration/metrics-fields' },
+		{ label: 'Metric Fields', href: '/administration/metric-fields' },
 		{ label: 'Dashboard Layout', href: '/administration/dashboard-layout' },
 		{ label: 'Profiles Layout', href: '/administration/profiles-layout' },
 		{ label: 'Badges', href: '/administration/badges' },
