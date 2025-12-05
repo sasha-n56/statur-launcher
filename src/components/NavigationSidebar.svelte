@@ -1,16 +1,23 @@
 <script>
+	import { t } from '$lib/i18n';
+
 	const menuItems = [
-		{ label: 'Metric Fields', href: '/administration/metric-fields' },
-		{ label: 'Dashboard Layout', href: '/administration/dashboard-layout' },
-		{ label: 'Profiles Layout', href: '/administration/profiles-layout' },
-		{ label: 'Badges', href: '/administration/badges' },
-		{ label: 'Administrators', href: '/administration/administrators' },
-		{ label: 'API & Payment', href: '/administration/api-and-payment' }
+		{ key: 'administration.settingsMenu.metricFields', href: '/administration/metric-fields' },
+		{
+			key: 'administration.settingsMenu.dashboardLayout',
+			href: '/administration/dashboard-layout'
+		},
+		{ key: 'administration.settingsMenu.profilesLayout', href: '/administration/profiles-layout' },
+		{ key: 'administration.settingsMenu.badges', href: '/administration/badges' },
+		{ key: 'administration.settingsMenu.administrators', href: '/administration/administrators' },
+		{ key: 'administration.settingsMenu.apiAndPayment', href: '/administration/api-and-payment' }
 	];
 </script>
 
 <nav class="flex flex-col border">
 	{#each menuItems as item}
-		<a href={item.href}> {item.label} </a>
+		<a href={item.href}>
+			{$t(item.key)}
+		</a>
 	{/each}
 </nav>
