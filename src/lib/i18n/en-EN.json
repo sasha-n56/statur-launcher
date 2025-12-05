@@ -12,7 +12,8 @@
     "disabled":"Disabled",
     "change":"Change",
     "renew":"Renew",
-    "sort":"Sort" 
+    "sort":"Sort",
+    "welcome": "Welcome!"
   },
   "launcher": {
     "walletSignInStep": {
