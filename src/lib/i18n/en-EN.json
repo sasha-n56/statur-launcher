@@ -150,7 +150,9 @@
     "apiAndPayment":{
       "description":"Monitor your API daily calls and manage or renew your payment plan",
       "yourPlan":"Your Plan",
-      "expires":"Expires in {count} Days"
+      "expires":"Expires in {count} Days",
+      "apiUsage":"API Usage",
+      "dailyCalls":"Daily Calls"
     }
   },
   "dashboard": {
