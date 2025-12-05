@@ -10,6 +10,6 @@
 
 	<div class="flex gap-3">
 		<a href="/administration/metrics-fields">{$t('header.administration')}</a>
-		<a href={'/administration/dashboard-layout'}>{$t('header.dashboard')}</a>
+		<a href={'/users'}>{$t('header.dashboard')}</a>
 	</div>
 </header>

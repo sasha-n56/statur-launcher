@@ -13,7 +13,9 @@
     "change":"Change",
     "renew":"Renew",
     "sort":"Sort",
-    "welcome": "Welcome!"
+    "welcome": "Welcome!",
+    "badges": "Badges",
+    "account": "Account"
   },
   "launcher": {
     "walletSignInStep": {
