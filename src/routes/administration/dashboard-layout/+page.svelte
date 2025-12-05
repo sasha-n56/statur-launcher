@@ -16,13 +16,28 @@
 			<div>{$t('administration.dashboardLayout.description')}</div>
 			<div class="flex w-full">
 				<div class="flex-1">{$t('administration.dashboardLayout.leaderboardPlusAccountList')}</div>
-				<div class="flex-1">{$t('administration.dashboardLayout.accountsSorting')}</div>
+				<div class="flex-1">{$t('administration.dashboardLayout.accountListOnly')}</div>
 			</div>
 			<div>
-				<div>{$t('administration.dashboardLayout.metricFields')}</div>
-				<div>
-					<div class="flex-1">{$t('administration.dashboardLayout.metricFields')}</div>
-					<div class="flex-1">{$t('administration.dashboardLayout.metricFields')}</div>
+				<div>{$t('administration.dashboardLayout.accountsSorting')}</div>
+				<div class="flex">
+					<div class="flex-1">
+						<div>
+							{$t('administration.dashboardLayout.leaderboardTrackingField.title')}
+						</div>
+						<div>
+							{$t('administration.dashboardLayout.leaderboardTrackingField.description')}
+						</div>
+					</div>
+
+					<div class="flex-1">
+						<div>
+							{$t('administration.dashboardLayout.accountDefaultSorting.title')}
+						</div>
+						<div>
+							{$t('administration.dashboardLayout.accountDefaultSorting.description')}
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

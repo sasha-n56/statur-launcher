@@ -3,7 +3,10 @@
 </script>
 
 <header class="flex w-full justify-between">
-	<div>{$t('common.statur')}</div>
+	<div class="flex">
+		<div>{$t('common.statur')}</div>
+		<div>Gotham city</div>
+	</div>
 
 	<div class="flex gap-3">
 		<a href="/administration/metrics-fields">{$t('header.administration')}</a>
