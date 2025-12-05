@@ -11,6 +11,7 @@
 			<div>{$t('common.welcome')}</div>
 			<div>{$t('launcher.createAccountStep.title')}</div>
 			<div>{$t('launcher.createAccountStep.description')}</div>
+			<div>{$t('launcher.createAccountStep.accountName')}</div>
 			<LinkButton href="/sign-up/create-account-success" name={$t('common.create')} />
 		</div>
 	</main>

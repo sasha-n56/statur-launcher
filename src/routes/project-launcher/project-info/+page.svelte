@@ -11,6 +11,8 @@
 			<div>{$t('common.projectLauncher')}</div>
 			<div>{$t('launcher.projectInfoStep.title')}</div>
 			<div>{$t('launcher.projectInfoStep.description')}</div>
+			<div>{$t('launcher.projectInfoStep.projectName')}</div>
+			<div>{$t('launcher.projectInfoStep.describeYourProject')}</div>
 			<LinkButton
 				href="/project-launcher/branding"
 				name={$t('launcher.projectInfoStep.actionButton')}

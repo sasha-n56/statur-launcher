@@ -14,6 +14,12 @@
 		<div class="flex flex-1 flex-col">
 			<div>{$t('administration.settingsMenu.metricFields')}</div>
 			<div>{$t('administration.metricFields.description')}</div>
+			<div class="flex justify-between">
+				<div>{$t('administration.metricFields.columns.label')}</div>
+				<div>{$t('administration.metricFields.columns.key')}</div>
+				<div>{$t('administration.metricFields.columns.unit')}</div>
+				<div>{$t('administration.metricFields.columns.weight')}</div>
+			</div>
 		</div>
 	</main>
 </div>
