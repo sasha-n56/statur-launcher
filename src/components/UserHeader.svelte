@@ -3,10 +3,9 @@
 </script>
 
 <header class="flex w-full justify-between">
-	<div class="flex">
-		<div>{$t('common.statur')}</div>
-		<div>Gotham city</div>
-	</div>
+	<button class="border" on:click={() => history.back()}>
+		{$t('common.back')}
+	</button>
 
 	<div class="flex gap-3">
 		<a href={'/users'}>{$t('header.dashboard')}</a>

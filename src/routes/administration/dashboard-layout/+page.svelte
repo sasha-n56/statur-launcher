@@ -28,6 +28,9 @@
 						<div>
 							{$t('administration.dashboardLayout.leaderboardTrackingField.description')}
 						</div>
+						<div>
+							{$t('administration.dashboardLayout.leaderboardTrackingField.trackingField')}
+						</div>
 					</div>
 
 					<div class="flex-1">

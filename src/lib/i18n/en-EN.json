@@ -165,8 +165,9 @@
     "address":"Address" 
   },
   "finaliseSetup":{
-    "label":"Finalise Setup",
+    "label":"Missing Mandatory Parameters",
     "title":"Finalise App Setup",
+    "actionButton":"Finalise Setup",
     "description": {
       "prefix":"Please, finalize the app configuration in the administration panel.",
       "mandatory": "{fields}, {dashboard} and {profiles} are mandatory configurations", 
