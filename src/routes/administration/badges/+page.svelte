@@ -1,5 +1,6 @@
 <script lang="ts">
 	import AdminHeader from '$components/AdminHeader.svelte';
+	import BadgePopupWidget from '$components/badgePopup/BadgePopupWidget.svelte';
 	import NavigationSidebar from '$components/NavigationSidebar.svelte';
 	import { t } from '$lib/i18n';
 </script>
@@ -16,6 +17,8 @@
 			<div>{$t('administration.badges.description')}</div>
 
 			<div>{$t('common.createBadge')}</div>
+
+			<BadgePopupWidget />
 		</div>
 	</main>
 </div>
