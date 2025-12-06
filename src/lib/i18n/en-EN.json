@@ -142,8 +142,8 @@
       "stepMechanics":{
         "title":"Mechanics",
         "description": "Time to create the mechanics of the badge, choose one of the tracking fields and a value to reach.",
-        "valuetoReach":"Value to Reach",
-        "valueDireciton":"Value direction",
+        "valueToReach":"Value to Reach",
+        "valueDirection":"Value direction",
         "equalsOrMore":"Equals or more then “Value to reach”",
         "equalsOrLess":"Equals or less then “Value to reach”",
         "exactValue":"Exact value =  “Value to reach”"
