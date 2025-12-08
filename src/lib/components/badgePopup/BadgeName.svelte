@@ -8,9 +8,8 @@
 	};
 </script>
 
-<div class=" flex flex-col items-center relative border max-w-[480px]">
+<div class=" flex flex-col items-center">
 	<BadgeText {...badgeTextData} />
 	<input class="border" type="text" placeholder={$t('administration.badges.stepName.title')} />
-	<!-- <button class="border">{$t('common.next')}</button> -->
 	<button onclick={nextStep} class="border">{$t('common.next')}</button>
 </div>

@@ -7,6 +7,6 @@
 	let { onClick, name }: IButtonProps = $props();
 </script>
 
-<button class="border">
+<button onclick={onClick} class="border">
 	{name}
 </button>

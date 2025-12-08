@@ -21,7 +21,7 @@ function prevStep() {
   if (popup.step > 0) popup.step -= 1
 }
 
-const isOpen = () => popup.isOpen
+const isOpen = () => popup.isOpen;
 const currentStep = () => popup.step
 
 export { isOpen, currentStep, openStepPopup, closeStepPopup, nextStep, prevStep }
