@@ -1,5 +1,5 @@
 <script lang="ts">
-	import AdminHeader from '$components/AdminHeader.svelte';
+	import AdminHeader from '$lib/components/AdminHeader.svelte';
 	import { t } from '$lib/i18n';
 </script>
 

@@ -5,9 +5,9 @@
 	import { isOpen, onClose } from '$lib/store/popup.store.svelte';
 </script>
 
-{#if isOpen}
+{#if isOpen()}
 	<div class="fixed inset-0 bg-black/40 flex items-center justify-center" onclick={onClose}>
 		<MissingKeys />
 		<DatabaseError />
 	</div>
-{/if} e
+{/if}

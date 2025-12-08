@@ -1,8 +1,8 @@
 <script lang="ts">
 	import type { Component } from 'svelte';
-	import { FlowStep } from '$types/launcher.ts';
-	import WalletSignIn from '$components/WalletSignIn.svelte';
-	import PaymentPlan from '$components/PaymentPlan.svelte';
+	import { FlowStep } from '$lib/types/launcher';
+	import WalletSignIn from '$lib/components/WalletSignIn.svelte';
+	import PaymentPlan from '$lib/components/PaymentPlan.svelte';
 
 	type StepConfig = {
 		id: FlowStep;

@@ -1,6 +1,6 @@
 <script lang="ts">
-	import LinkButton from '$components/LinkButton.svelte';
-	import SignUpHeader from '$components/SignUpHeader.svelte';
+	import LinkButton from '$lib/components/LinkButton.svelte';
+	import SignUpHeader from '$lib/components/SignUpHeader.svelte';
 	import { t } from '$lib/i18n';
 </script>
 

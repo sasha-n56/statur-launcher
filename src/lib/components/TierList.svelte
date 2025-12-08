@@ -2,7 +2,7 @@
 	import { t } from 'svelte-i18n';
 	import Button from './Button.svelte';
 	import PaymentTierButton from './PaymentTierButton.svelte';
-	import type { ITier } from '$types/launcher';
+	import type { ITier } from '$lib/types/launcher';
 
 	const tierList: ITier[] = [
 		{ id: '1', amount: '0', ada: '0', apiCalls: '100' },

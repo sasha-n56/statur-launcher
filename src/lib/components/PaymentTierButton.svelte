@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { ITier } from '$types/launcher';
+	import type { ITier } from '../types/launcher.ts';
 	import { t } from 'svelte-i18n';
 
 	interface ITierProps {

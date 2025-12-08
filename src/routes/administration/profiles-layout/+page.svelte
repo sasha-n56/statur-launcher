@@ -1,6 +1,6 @@
 <script lang="ts">
-	import AdminHeader from '$components/AdminHeader.svelte';
-	import NavigationSidebar from '$components/NavigationSidebar.svelte';
+	import AdminHeader from '$lib/components/AdminHeader.svelte';
+	import NavigationSidebar from '$lib/components/NavigationSidebar.svelte';
 	import { t } from '$lib/i18n';
 </script>
 

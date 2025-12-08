@@ -1,8 +1,8 @@
 <script lang="ts">
-	import AdminHeader from '$components/AdminHeader.svelte';
-	import BadgePopupWidget from '$components/badgePopup/BadgePopupWidget.svelte';
-	import ErrorPopupWidget from '$components/errorPopup/ErrorPopupWidget.svelte';
-	import NavigationSidebar from '$components/NavigationSidebar.svelte';
+	import AdminHeader from '$lib/components/AdminHeader.svelte';
+	import BadgePopupWidget from '$lib/components/badgePopup/BadgePopupWidget.svelte';
+	import ErrorPopupWidget from '$lib/components/errorPopup/ErrorPopupWidget.svelte';
+	import NavigationSidebar from '$lib/components/NavigationSidebar.svelte';
 	import { t } from '$lib/i18n';
 </script>
 

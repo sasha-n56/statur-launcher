@@ -1,6 +1,6 @@
 <script lang="ts">
-	import LauncherHeader from '$components/LauncherHeader.svelte';
-	import LinkButton from '$components/LinkButton.svelte';
+	import LauncherHeader from '$lib/components/LauncherHeader.svelte';
+	import LinkButton from '$lib/components/LinkButton.svelte';
 	import { t } from '$lib/i18n';
 </script>
 
