@@ -1,15 +1,15 @@
 <script lang="ts">
 	let { children } = $props();
-	import { isOpen, onClose } from '$lib/store/popup.store.svelte';
+	import { closePopup, isOpen } from '$lib/store/popup.store.svelte';
 </script>
 
 {#if isOpen()}
 	<div
 		class="fixed inset-0 bg-black/80 flex items-center justify-center"
-		onclick={onClose}
+		onclick={closePopup}
 		role="button"
 		tabindex="0"
-		onkeydown={onClose}
+		onkeydown={closePopup}
 	>
 		<div
 			class="relative border max-w-[480px]"

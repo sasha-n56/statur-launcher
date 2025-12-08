@@ -1,14 +1,13 @@
 let popup = $state<{ isOpen: boolean }>({ isOpen: false });
 
-function onOpen() {
+function openPopup() {
    popup.isOpen = true
 };
 
-function onClose() {
+function closePopup() {
   popup.isOpen = false
 };
 
 const isOpen = ()=>popup.isOpen;
 
-export {isOpen, onOpen, onClose }
-
+export {isOpen, openPopup, closePopup }

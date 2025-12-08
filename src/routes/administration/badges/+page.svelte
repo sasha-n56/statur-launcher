@@ -5,7 +5,8 @@
 	import ErrorPopupWidget from '$lib/components/errorPopup/ErrorPopupWidget.svelte';
 	import NavigationSidebar from '$lib/components/NavigationSidebar.svelte';
 	import { t } from '$lib/i18n';
-	import { onOpen } from '$lib/store/popup.store.svelte';
+	import { openPopup } from '$lib/store/popup.store.svelte';
+	import { openStepPopup } from '$lib/store/stepPopup.store.svelte';
 </script>
 
 <div class="flex flex-col w-full items-center">
@@ -18,7 +19,8 @@
 		<div class="flex flex-1 flex-col">
 			<div>{$t('administration.settingsMenu.badges')}</div>
 			<div>{$t('administration.badges.description')}</div>
-			<button class="border w-20" onclick={onOpen}> showError </button>
+			<button class="border w-20" onclick={openPopup}> showError </button>
+			<button class="border w-20" onclick={openStepPopup}> showError </button>
 			<div>{$t('common.createBadge')}</div>
 
 			<BadgePopupWidget />

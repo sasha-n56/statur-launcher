@@ -3,25 +3,25 @@ let popup = $state<{ isOpen: boolean; step: number }>({
   step: 0
 })
 
-function onOpen() {
+function openStepPopup() {
   popup.isOpen = true
   popup.step = 0
 }
 
-function onClose() {
+function closeStepPopup() {
   popup.isOpen = false
   popup.step = 0
 }
 
-function onNext() {
+function nextStep() {
   popup.step += 1
 }
 
-function onPrev() {
+function prevStep() {
   if (popup.step > 0) popup.step -= 1
 }
 
 const isOpen = () => popup.isOpen
 const currentStep = () => popup.step
 
-export { isOpen, currentStep, onOpen, onClose, onNext, onPrev }
+export { isOpen, currentStep, openStepPopup, closeStepPopup, nextStep, prevStep }

@@ -1,9 +1,9 @@
 <script lang="ts">
 	import { t } from '$lib/i18n';
 
-	import { onClose } from '$lib/store/popup.store.svelte';
+	import { closePopup } from '$lib/store/popup.store.svelte';
 	function documenting() {
-		onClose();
+		closePopup();
 	}
 </script>
 
