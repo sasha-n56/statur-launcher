@@ -10,6 +10,6 @@
 	<link rel="icon" href={svelteFavicon} />
 </svelte:head>
 
-<div class="text-white flex min-h-screen w-full overflow-hidden bg-stay-dark">
+<div class="min-h-screen w-full bg-stay-dark text-white">
 	{@render children()}
 </div>
