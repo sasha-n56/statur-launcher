@@ -20,8 +20,7 @@
 			<div>{$t('administration.settingsMenu.badges')}</div>
 			<div>{$t('administration.badges.description')}</div>
 			<button class="border w-20" onclick={openPopup}> showError </button>
-			<button class="border w-20" onclick={openStepPopup}> showError </button>
-			<div>{$t('common.createBadge')}</div>
+			<button class="border w-40" onclick={openStepPopup}> {$t('common.createBadge')}</button>
 
 			<BadgePopupWidget />
 

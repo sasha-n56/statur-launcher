@@ -1,23 +1,17 @@
 <script lang="ts">
-	import {
-		closeStepPopup,
-		currentStep,
-		isOpen,
-		nextStep,
-		prevStep
-	} from '$lib/store/stepPopup.store.svelte';
+	import { closeStepPopup, currentStep, isOpen } from '$lib/store/stepPopup.store.svelte';
 	import BadgeDescription from './BadgeDescription.svelte';
 	import BadgeIcon from './BadgeIcon.svelte';
 	import BadgeMechanics from './BadgeMechanics.svelte';
 	import BadgeName from './BadgeName.svelte';
 </script>
 
-<div>
-	<BadgeName />
-	<BadgeDescription />
-	<BadgeIcon />
-	<BadgeMechanics />
-</div>
+<!-- <div> -->
+<!-- 	<BadgeName /> -->
+<!-- 	<BadgeDescription /> -->
+<!-- 	<BadgeIcon /> -->
+<!-- 	<BadgeMechanics /> -->
+<!-- </div> -->
 {#if isOpen()}
 	<div
 		class="fixed inset-0 bg-black/80 flex items-center justify-center"
