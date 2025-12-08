@@ -1,5 +1,5 @@
 <script lang="ts">
-	import UserHeader from '$components/UserHeader.svelte';
+	import UserHeader from '$lib/components/UserHeader.svelte';
 	import { t } from '$lib/i18n';
 </script>
 
