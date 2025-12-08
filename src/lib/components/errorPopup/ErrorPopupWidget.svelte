@@ -12,7 +12,7 @@
 		onkeydown={onClose}
 	>
 		<div
-			class="flex flex-col items-center relative border max-w-[480px]"
+			class="relative border max-w-[480px]"
 			onclick={(e: MouseEvent) => e.stopPropagation()}
 			role="dialog"
 			tabindex="0"
