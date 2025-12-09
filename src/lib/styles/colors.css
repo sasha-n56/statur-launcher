@@ -16,13 +16,14 @@
   --color-main-accent-light: var(--main-accent-light);
   --color-second-accent: var(--second-accent);
   --color-second-accent-light: var(--second-accent-light);
+  /* fix base  color later */
   --color-base: var(--base);
   --color-stay-white: var(--stay-white);
-  --color-stay-dark: var(--stay-dark);
+  --color-stay-dark: var(--stay-dark-pink);
   --color-grey: var(--grey);
   /* --color-grey-dark: var(--grey-dark); */
   /* --color-grey-light: var(--grey-light); */
-  --color-lines: var(--);
+  /* --color-lines: var(--); */
   /* --color-lines-light: var(--lines-light); */
 }
 
@@ -40,6 +41,9 @@
 /* var */
   --text: var(--base);
 }
+
+/* example */
+/* --l-STAY-Darko:#1F0726;  */
 
 
 [data-theme='light'][data-brand='pink'] {
