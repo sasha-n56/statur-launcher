@@ -1,6 +1,6 @@
 :root { 
-  --main-accent: #EB50AD;
-  --main-accent-light: #FF59BD;
+  --main-accent-pink: #EB50AD;
+  --main-accent-light-pink: #FF59BD;
   --second-accent: #4E2A50;
   --second-accent-light: #6E3A70;
   --base: #E6EBF5;
@@ -23,3 +23,39 @@
   --color-grey-light: var(--grey-light);
   --color-lines-light: var(--lines-light);
 }
+
+[data-theme='dark'][data-brand='pink'] {
+  --main-accent: var(--main-accent-pink);
+  --main-accent-light: var(--main-accent-light-pink);
+  --second-accent: var();
+  --second-accent-light: var();
+  --base: var();
+  --stay-dark: var();
+  --stay-white: var();
+  --grey-dark: var();
+  --grey-light: var();
+  --lines-light: var();
+}
+
+[data-theme='light'][data-brand='pink'] {
+  --bg-page: var(--pink-light-bg-base);
+  --bg-card: var(--pink-light-stay-white);
+  --bg-header: var(--pink-light-bg-0);
+
+  --text-primary: var(--pink-light-text);
+  --text-secondary: var(--pink-light-grey);
+
+  --accent-main: var(--pink-light-main-accent);
+  --accent-cta: var(--pink-light-main-accent);
+
+  --btn-back-bg: var(--pink-light-second-accent);
+  --btn-next-bg: var(--pink-light-main-accent);
+
+  --dot-active: var(--pink-light-main-accent);
+  --dot-inactive: var(--pink-light-lines-light);
+
+  --border-subtle: var(--pink-light-lines);
+  --input-border: var(--pink-light-input-lines);
+}
+
+
