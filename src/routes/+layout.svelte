@@ -9,7 +9,7 @@
 <svelte:head>
 	<link rel="icon" href={svelteFavicon} />
 </svelte:head>
-
-<div class="min-h-screen w-full bg-stay-dark text-white">
+<!-- bg-[var(--l-MainAccent)] -->
+<div data-theme="light" class="min-h-screen w-full bg-l-MainAccent text-white">
 	{@render children()}
 </div>
