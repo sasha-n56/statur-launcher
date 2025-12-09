@@ -37,11 +37,26 @@
   --stay-white: var(--stay-white);
   --grey: var(--grey-dark-pink);
   --lines: var(--base);
-
-
 /* var */
   --text: var(--base);
 }
+
+
+[data-theme='light'][data-brand='pink'] {
+  --main-accent: var(--main-accent-pink);
+  --main-accent-light: var(--main-accent-light-pink);
+  --second-accent: var(--second-accent-pink);
+  --second-accent-light: var(--second-accent-light-pink);
+ /* ?  */
+  --base: var(--stay-dark-pink);
+  --stay-dark: var(--stay-dark-pink);
+  --stay-white: var(--stay-white);
+  --grey: var(--grey-dark-pink);
+  --lines: var(--base);
+
+
+}
+
 
 
 [data-theme='light'][data-brand='pink'] {
