@@ -1,13 +1,13 @@
 :root { 
   --main-accent-pink: #EB50AD;
   --main-accent-light-pink: #FF59BD;
-  --second-accent: #4E2A50;
-  --second-accent-light: #6E3A70;
+  --second-accent-pink: #4E2A50;
+  --second-accent-light-pink: #6E3A70;
   --base: #E6EBF5;
-  --stay-dark: #1F0726;
+  --stay-dark-pink: #1F0726;
   --stay-white: #F9F9FB;
-  --grey-dark: #9D94AB;
-  --grey-light: #716880;
+  --grey-dark-pink: #9D94AB;
+  --grey-light-pink: #716880;
   --lines-light: #CCCDDB;
 }
 
@@ -19,22 +19,23 @@
   --color-base: var(--base);
   --color-stay-white: var(--stay-white);
   --color-stay-dark: var(--stay-dark);
-  --color-grey-dark: var(--grey-dark);
-  --color-grey-light: var(--grey-light);
-  --color-lines-light: var(--lines-light);
+  --color-grey: var(--grey);
+  /* --color-grey-dark: var(--grey-dark); */
+  /* --color-grey-light: var(--grey-light); */
+  --color-lines: var(--);
+  /* --color-lines-light: var(--lines-light); */
 }
 
 [data-theme='dark'][data-brand='pink'] {
   --main-accent: var(--main-accent-pink);
   --main-accent-light: var(--main-accent-light-pink);
-  --second-accent: var();
-  --second-accent-light: var();
+  --second-accent: var(--second-accent-pink);
+  --second-accent-light: var(--second-accent-light-pink);
   --base: var();
-  --stay-dark: var();
-  --stay-white: var();
-  --grey-dark: var();
-  --grey-light: var();
-  --lines-light: var();
+  --stay-dark: var(--stay-dark-pink);
+  --stay-white: var(--stay-white);
+  --grey: var();
+  --lines: var(--base);
 }
 
 [data-theme='light'][data-brand='pink'] {
