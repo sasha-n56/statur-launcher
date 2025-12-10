@@ -60,7 +60,7 @@
   --cl-SecondAccent: #4E2A50;
   --cl-SecondAccent-08: #4E2A5014;
   --cl-SecondAccent-light: #6E3A70;
-  --cl-ThirdAccent: #2ACEE0,
+  --cl-ThirdAccent: #2ACEE0;
   --cl-BG-base: #1F0726;
   --cl-BG-0: #E6EBF508;
   --cl-BG-1: #E6EBF50A;
@@ -84,23 +84,23 @@
   --cl-STAY-Darko: #1F0726;
   --cl-MainAccent: #EB50AD;
   --cl-MainAccent-20: #EB50AD33;
-  --cl-MainAccent-light: #FF59BD,
-  --cl-SecondAccent: #4E2A50,
-  --cl-SecondAccent-08: #4E2A5014,
-  --cl-SecondAccent-light: #6E3A70,
-  --cl-ThirdAccent: #2ACEE0,
-  --cl-BG-base: #E6EBF5,
-  --cl-BG-0: #E6EBF5,
-  --cl-BG-1: #EEF1F7,
-  --cl-BG-2: #F9F9FB,
-  --cl-STAY-white: #F9F9FB,
-  --cl-White-60: #FFFFFF99,
-  --cl-White-18: #FFFFFF2E,
-  --cl-White-10: #FFFFFF1A,
-  --cl-Grey: #716880,
-  --cl-Lines: #CCCDDB,
-  --cl-Lines-Light: #CCCDDB80,
-  --cl-Input-lines: #CCCDDB,
+  --cl-MainAccent-light: #FF59BD;
+  --cl-SecondAccent: #4E2A50;
+  --cl-SecondAccent-08: #4E2A5014;
+  --cl-SecondAccent-light: #6E3A70;
+  --cl-ThirdAccent: #2ACEE0;
+  --cl-BG-base: #E6EBF5;
+  --cl-BG-0: #E6EBF5;
+  --cl-BG-1: #EEF1F7;
+  --cl-BG-2: #F9F9FB;
+  --cl-STAY-white: #F9F9FB;
+  --cl-White-60: #FFFFFF99;
+  --cl-White-18: #FFFFFF2E;
+  --cl-White-10: #FFFFFF1A;
+  --cl-Grey: #716880;
+  --cl-Lines: #CCCDDB;
+  --cl-Lines-Light: #CCCDDB80;
+  --cl-Input-lines: #CCCDDB;
   --cl-Text: #120E1A;
 }
 
@@ -250,11 +250,53 @@
 
 
 [data-theme='dark'][data-brand='yellow'] {
-
+  --cl-STAY-Darko: #0F1013;
+  --cl-MainAccent: #F1A438;
+  --cl-MainAccent-20: #F1A43833;
+  --cl-MainAccent-light: #EDB463;
+  --cl-SecondAccent: #333333;
+  --cl-SecondAccent-08: #33333314;
+  --cl-SecondAccent-light: #434242;
+  --cl-ThirdAccent: #2ACEE0;
+  --cl-BG-base: #0F1013;
+  --cl-BG-0: #E6EBF508;
+  --cl-BG-1: #E6EBF50D;
+  --cl-BG-2: #E6EBF50F;
+  --cl-STAY-white: #F9F9FB;
+  --cl-White-60: #E6EBF512;
+  --cl-White-18: #E6EBF52E;
+  --cl-White-10: #E6EBF512;
+  --cl-Grey: #A0A4B1;
+  --cl-Lines: #E6EBF533;
+  --cl-Lines-Light: #E6EBF50F;
+  --cl-Input-lines: #E6EBF500;
+  --cl-Text: #E6EBF5;
 }
+
 [data-theme='light'][data-brand='yellow'] {
-
+  --cl-STAY-Darko: #0F1013;
+  --cl-MainAccent: #F1A438;
+  --cl-MainAccent-20: #F1A43833;
+  --cl-MainAccent-light: #EDB463;
+  --cl-SecondAccent: #333333;
+  --cl-SecondAccent-08: #33333314;
+  --cl-SecondAccent-light: #434242;
+  --cl-ThirdAccent: #2ACEE0;
+  --cl-BG-base: #E6EBF5;
+  --cl-BG-0: #E6EBF5;
+  --cl-BG-1: #EEF1F7;
+  --cl-BG-2: #F9F9FB;
+  --cl-STAY-white: #F9F9FB;
+  --cl-White-60: #FFFFFF99;
+  --cl-White-18: #FFFFFF2E;
+  --cl-White-10: #FFFFFF1A;
+  --cl-Grey: #676D7E;
+  --cl-Lines: #CCCDDB;
+  --cl-Lines-Light: #CCCDDB4D;
+  --cl-Input-lines: #CCCDDB;
+  --cl-Text: #120E1A;
 }
+
 [data-theme='dark'][data-brand='red'] {
 
 }
