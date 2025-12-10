@@ -33,10 +33,6 @@
 }
 
 @theme {
-  --color-l-MainAccent: var(--cl-MainAccent);
-  --color-l-BG-0: var(--cl-BG-0);
-
-
   --color-main-accent: var(--main-accent);
   --color-main-accent-light: var(--main-accent-light);
   --color-second-accent: var(--second-accent);
@@ -248,7 +244,6 @@
   --cl-Text: #120E1A;
 }
 
-
 [data-theme='dark'][data-brand='yellow'] {
   --cl-STAY-Darko: #0F1013;
   --cl-MainAccent: #F1A438;
@@ -298,33 +293,50 @@
 }
 
 [data-theme='dark'][data-brand='red'] {
-
+  --cl-STAY-Darko: #0B090B;
+  --cl-MainAccent: #E32752;
+  --cl-MainAccent-20: #E3275233;
+  --cl-MainAccent-light: #E53860;
+  --cl-SecondAccent: #413539;
+  --cl-SecondAccent-08: #41353914;
+  --cl-SecondAccent-light: #5A3F48;
+  --cl-ThirdAccent: #EB50AD;
+  --cl-BG-base: #0B090B;
+  --cl-BG-0: #E6EBF508;
+  --cl-BG-1: #E6EBF50D;
+  --cl-BG-2: #E6EBF50F;
+  --cl-STAY-white: #F9F9FB;
+  --cl-White-60: #E6EBF512;
+  --cl-White-18: #E6EBF52E;
+  --cl-White-10: #E6EBF512;
+  --cl-Grey: #A0A4B1;
+  --cl-Lines: #E6EBF533;
+  --cl-Lines-Light: #E6EBF50F;
+  --cl-Input-lines: #E6EBF500;
+  --cl-Text: #E6EBF5;
 }
+
 [data-theme='light'][data-brand='red'] {
-
+  --cl-STAY-Darko: #0B090B;
+  --cl-MainAccent: #E32752;
+  --cl-MainAccent-20: #E3275233;
+  --cl-MainAccent-light: #E53860;
+  --cl-SecondAccent: #413539;
+  --cl-SecondAccent-08: #41353914;
+  --cl-SecondAccent-light: #5A3F48;
+  --cl-ThirdAccent': #EB50AD;
+  --cl-BG-base: #E6EBF5;
+  --cl-BG-0: #E6EBF5;
+  --cl-BG-1: #EEF1F7;
+  --cl-BG-2: #F9F9FB;
+  --cl-STAY-white: #F9F9FB;
+  --cl-White-60: #FFFFFF99;
+  --cl-White-18: #FFFFFF2E;
+  --cl-White-10: #FFFFFF1A;
+  --cl-Grey: #676D7E;
+  --cl-Lines: #CCCDDB;
+  --cl-Lines-Light: #CCCDDB80;
+  --cl-Input-lines: #CCCDDB;
+  --cl-Text: #120E1A;
 }
-
-
-
-[data-theme='light'][data-brand='pink'] {
-  --bg-page: var(--pink-light-bg-base);
-  --bg-card: var(--pink-light-stay-white);
-  --bg-header: var(--pink-light-bg-0);
-
-  --text-primary: var(--pink-light-text);
-  --text-secondary: var(--pink-light-grey);
-
-  --accent-main: var(--pink-light-main-accent);
-  --accent-cta: var(--pink-light-main-accent);
-
-  --btn-back-bg: var(--pink-light-second-accent);
-  --btn-next-bg: var(--pink-light-main-accent);
-
-  --dot-active: var(--pink-light-main-accent);
-  --dot-inactive: var(--pink-light-lines-light);
-
-  --border-subtle: var(--pink-light-lines);
-  --input-border: var(--pink-light-input-lines);
-}
-
 
