@@ -20,21 +20,21 @@
   --l-Lines-Light: #CCCDDB80;
   --l-Input-lines: #CCCDDB;
   --l-Text: #120E1A;
-  --main-accent-pink: #EB50AD;
-  --main-accent-light-pink: #FF59BD;
-  --second-accent-pink: #4E2A50;
-  --second-accent-light-pink: #6E3A70;
-  --base: #E6EBF5;
-  --stay-dark-pink: #1F0726;
-  --stay-white: #F9F9FB;
-  --grey-dark-pink: #9D94AB;
-  --grey-light-pink: #716880;
-  --lines-light: #CCCDDB;
+  /* --main-accent-pink: #EB50AD; */
+  /* --main-accent-light-pink: #FF59BD; */
+  /* --second-accent-pink: #4E2A50; */
+  /* --second-accent-light-pink: #6E3A70; */
+  /* --base: #E6EBF5; */
+  /* --stay-dark-pink: #1F0726; */
+  /* --stay-white: #F9F9FB; */
+  /* --grey-dark-pink: #9D94AB; */
+  /* --grey-light-pink: #716880; */
+  /* --lines-light: #CCCDDB; */
 }
 
 @theme {
   --color-l-MainAccent: var(--l-MainAccent);
-  --color-l-bg-0: var(--l-BG-0);
+  --color-l-BG-0: var(--l-BG-0);
 
 
   --color-main-accent: var(--main-accent);
@@ -58,18 +58,27 @@
 };
 
 [data-theme='dark'][data-brand='pink'] {
-  --main-accent: var(--main-accent-pink);
-  --main-accent-light: var(--main-accent-light-pink);
-  --second-accent: var(--second-accent-pink);
-  --second-accent-light: var(--second-accent-light-pink);
- /* ?  */
-  --base: var(--stay-dark-pink);
-  --stay-dark: var(--stay-dark-pink);
-  --stay-white: var(--stay-white);
-  --grey: var(--grey-dark-pink);
-  --lines: var(--base);
-/* var */
-  --text: var(--base);
+  --cl-STAY-Darko: #1F0726;
+  --cl-MainAccent: #EB50AD;
+  --cl-MainAccent-20: #EB50AD33;
+  --cl-MainAccent-light: #FF59BD;
+  --cl-SecondAccent: #4E2A50;
+  --cl-SecondAccent-08: #4E2A5014;
+  --cl-SecondAccent-light: #6E3A70;
+  --cl-ThirdAccent: #2ACEE0,
+  --cl-BG-base: #1F0726;
+  --cl-BG-0: #E6EBF508;
+  --cl-BG-1: #E6EBF50A;
+  --cl-BG-2: #E6EBF50F;
+  --cl-STAY-white: #F9F9FB;
+  --cl-White-60: #E6EBF512;
+  --cl-White-18: #E6EBF52E;
+  --cl-White-10: #E6EBF512;
+  --cl-Grey: #9D94AB;
+  --cl-Lines: #E6EBF533;
+  --cl-Lines-Light: #E6EBF50F;
+  --cl-Input-lines: #E6EBF500;
+  --cl-Text: #E6EBF5;
 }
 
 /* example */
@@ -77,21 +86,41 @@
 
 
 [data-theme='light'][data-brand='pink'] {
-  --main-accent: var(--main-accent-pink);
-  --main-accent-light: var(--main-accent-light-pink);
-  --second-accent: var(--second-accent-pink);
-  --second-accent-light: var(--second-accent-light-pink);
- /* ?  */
-  --base: var(--stay-dark-pink);
-  --stay-dark: var(--stay-dark-pink);
-  --stay-white: var(--stay-white);
-  --grey: var(--grey-dark-pink);
-  --lines: var(--base);
-
-
+  --cl-STAY-Darko: #1F0726;
+  --cl-MainAccent: #EB50AD;
+  --cl-MainAccent-20: #EB50AD33;
+  --cl-MainAccent-light: #FF59BD,
+  --cl-SecondAccent: #4E2A50,
+  --cl-SecondAccent-08: #4E2A5014,
+  --cl-SecondAccent-light: #6E3A70,
+  --cl-ThirdAccent: #2ACEE0,
+  --cl-BG-base: #E6EBF5,
+  --cl-BG-0: #E6EBF5,
+  --cl-BG-1: #EEF1F7,
+  --cl-BG-2: #F9F9FB,
+  --cl-STAY-white: #F9F9FB,
+  --cl-White-60: #FFFFFF99,
+  --cl-White-18: #FFFFFF2E,
+  --cl-White-10: #FFFFFF1A,
+  --cl-Grey: #716880,
+  --cl-Lines: #CCCDDB,
+  --cl-Lines-Light: #CCCDDB80,
+  --cl-Input-lines: #CCCDDB,
+  --cl-Text: #120E1A;
 }
 
-
+[data-theme='dark'][data-brand='gren'] {
+}
+[data-theme='light'][data-brand='green'] {
+}
+[data-theme='dark'][data-brand='blue'] {
+}
+[data-theme='light'][data-brand='blue'] {
+}
+[data-theme='dark'][data-brand='orange'] {
+}
+[data-theme='light'][data-brand='orange'] {
+}
 
 [data-theme='light'][data-brand='pink'] {
   --bg-page: var(--pink-light-bg-base);
