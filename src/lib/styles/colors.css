@@ -52,11 +52,6 @@
   /* --color-lines-light: var(--lines-light); */
 }
 
-[data-theme='dark']{
-  --l-MainAccent: #555555;
-  --l-BG-0: #4E2A50;
-};
-
 [data-theme='dark'][data-brand='pink'] {
   --cl-STAY-Darko: #1F0726;
   --cl-MainAccent: #EB50AD;
@@ -206,9 +201,68 @@
 }
 
 [data-theme='dark'][data-brand='orange'] {
+  --cl-STAY-Darko: #0F1013;
+  --cl-MainAccent: #EB6F50;
+  --cl-MainAccent-20: #EB6F5033;
+  --cl-MainAccent-light: #ED7B5F;
+  --cl-SecondAccent: #333333;
+  --cl-SecondAccent-08: #33333314;
+  --cl-SecondAccent-light: #434242;
+  --cl-ThirdAccent: #2ACEE0;
+  --cl-BG-base: #0F1013;
+  --cl-BG-0: #E6EBF508;
+  --cl-BG-1: #E6EBF50D;
+  --cl-BG-2: #E6EBF50F;
+  --cl-STAY-white: #F9F9FB;
+  --cl-White-60: #E6EBF512;
+  --cl-White-18: #E6EBF52E;
+  --cl-White-10: #E6EBF50F;
+  --cl-Grey: #A0A4B1;
+  --cl-Lines: #E6EBF533;
+  --cl-Lines-Light: #E6EBF50F;
+  --cl-Input-lines: #E6EBF500;
+  --cl-Text: #E6EBF5;
 }
+
 [data-theme='light'][data-brand='orange'] {
+  --cl-STAY-Darko: #0F1013;
+  --cl-MainAccent: #EB6F50;
+  --cl-MainAccent-20: #EB6F5033;
+  --cl-MainAccent-light: #ED7B5F;
+  --cl-SecondAccent: #333333;
+  --cl-SecondAccent-08: #33333314;
+  --cl-SecondAccent-light: #434242;
+  --cl-ThirdAccent: #2ACEE0;
+  --cl-BG-base: #E6EBF5;
+  --cl-BG-0: #E6EBF5;
+  --cl-BG-1: #EEF1F7;
+  --cl-BG-2: #F9F9FB;
+  --cl-STAY-white: #F9F9FB;
+  --cl-White-60: #FFFFFF99;
+  --cl-White-18: #FFFFFF2E;
+  --cl-White-10: #FFFFFF1A;
+  --cl-Grey: #676D7E;
+  --cl-Lines: #CCCDDB;
+  --cl-Lines-Light: #CCCDDB80;
+  --cl-Input-lines: #CCCDDB;
+  --cl-Text: #120E1A;
 }
+
+
+[data-theme='dark'][data-brand='yellow'] {
+
+}
+[data-theme='light'][data-brand='yellow'] {
+
+}
+[data-theme='dark'][data-brand='red'] {
+
+}
+[data-theme='light'][data-brand='red'] {
+
+}
+
+
 
 [data-theme='light'][data-brand='pink'] {
   --bg-page: var(--pink-light-bg-base);
