@@ -48,10 +48,6 @@
   --cl-Text: #E6EBF5;
 }
 
-/* example */
-/* --l-STAY-Darko:#1F0726;  */
-
-
 [data-theme='light'][data-brand='pink'] {
   --cl-STAY-Darko: #1F0726;
   --cl-MainAccent: #EB50AD;

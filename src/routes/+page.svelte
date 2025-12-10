@@ -5,9 +5,9 @@
 	let wallet = $t('launcher.walletSignInStep.eternl');
 </script>
 
-<div class="flex flex-col w-full items-center">
+<div class="flex flex-col relative min-h-screen">
 	<LauncherHeader />
-	<main class="flex w-full h-full items-center justify-center max-w-md">
+	<main class="flex flex-1 items-center justify-center">
 		<div class="flex flex-col items-center">
 			<div>{$t('launcher.walletSignInStep.label')}</div>
 			<div>{$t('launcher.walletSignInStep.title')}</div>

@@ -1,40 +1,50 @@
 <script lang="ts">
+	type BrandName = 'pink' | 'blue' | 'green' | 'yellow' | 'orange' | 'red';
+
 	interface IBrandingColor {
 		id: string;
-		name: string;
+		name: BrandName;
+		hex: string;
 	}
 
 	const BRANDING_COLORS: IBrandingColor[] = [
 		{
 			id: '1',
-			name: 'pink'
+			name: 'pink',
+			hex: '#EB50AD'
 		},
 		{
 			id: '2',
-			name: 'blue'
+			name: 'blue',
+			hex: '#5084EB'
 		},
 		{
 			id: '3',
-			name: 'green'
+			name: 'green',
+			hex: '#07A27B'
 		},
 		{
 			id: '4',
-			name: 'yellow'
+			name: 'yellow',
+			hex: '#EBBA50'
 		},
 		{
 			id: '5',
-			name: 'orange'
+			name: 'orange',
+			hex: '#EB6F50'
 		},
 		{
 			id: '6',
-			name: 'red'
+			name: 'red',
+			hex: '#E53961'
 		}
 	];
 
 	let activeColor: IBrandingColor = $state(BRANDING_COLORS[0]);
 
-	const onColorClickHandler = (color: IBrandingColor) => {
+	const onColorClick = (color: IBrandingColor) => {
 		activeColor = color;
+		document.documentElement.setAttribute('data-brand', color.name);
 	};
 </script>
 
@@ -42,18 +52,14 @@
 	<div class="flex w-full items-center justify-between px-5">
 		{#each BRANDING_COLORS as color}
 			<button
-				class="flex h-8 w-8 items-center justify-center rounded-full {color}"
-				onclick={() => onColorClickHandler(color)}
+				class="flex h-8 w-8 items-center justify-center rounded-full"
+				style:background-color={color.hex}
+				onclick={() => onColorClick(color)}
 			>
 				{#if activeColor.id === color.id}
-					<div class="absolute h-3 w-3 rounded-full bg-text-white"></div>
+					<div class="absolute h-3 w-3 rounded-full bg-[var(--cl-STAY-white)]"></div>
 				{/if}
 			</button>
 		{/each}
-	</div>
-
-	<div class="flex w-full justify-between">
-		<button class="bg-amber-600">back</button>
-		<button class="bg-amber-950">next</button>
 	</div>
 </div>
