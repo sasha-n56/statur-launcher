@@ -133,34 +133,78 @@
   --cl-Text: #E6EBF5;
 }
 
-/* [data-theme='light'][data-brand='green'] { */
-/*   '--l-STAY-Darko': '#070E0C', */
-/*   '--l-MainAccent': '#07A27B', */
-/*   '--l-MainAccent-20': '#07A27B33', */
-/*   '--l-MainAccent-light': '#09C193', */
-/*   '--l-SecondAccent': '#1A4238', */
-/*   '--l-SecondAccent-08': '#1A42380F', */
-/*   '--l-SecondAccent-light': '#205044', */
-/*   '--l-ThirdAccent': '#E3C377', */
-/*   '--l-BG-base': '#E6EBF5', */
-/*   '--l-BG-0': '#E6EBF5', */
-/*   '--l-BG-1': '#EEF1F7', */
-/*   '--l-BG-2': '#F9F9FB', */
-/*   '--l-STAY-white': '#F9F9FB', */
-/*   '--l-White-60': '#FFFFFF99', */
-/*   '--l-White-18': '#FFFFFF2E', */
-/*   '--l-White-10': '#FFFFFF1A', */
-/*   '--l-Grey': '#60BD6A', */
-/*   '--l-Lines': '#CCCDDB', */
-/*   '--l-Lines-Light': '#CCCDDB80', */
-/*   '--l-Input-lines': '#CCCDDB', */
-/*   '--l-Text': '#120E1A', */
-/* } */
+[data-theme='light'][data-brand='green'] {
+  --cl-STAY-Darko: #070E0C;
+  --cl-MainAccent: #07A27B;
+  --cl-MainAccent-20: #07A27B33;
+  --cl-MainAccent-light: #09C193;
+  --cl-SecondAccent: #1A4238;
+  --cl-SecondAccent-08: #1A42380F;
+  --cl-SecondAccent-light: #205044;
+  --cl-ThirdAccent: #E3C377;
+  --cl-BG-base: #E6EBF5;
+  --cl-BG-0: #E6EBF5;
+  --cl-BG-1: #EEF1F7;
+  --cl-BG-2: #F9F9FB;
+  --cl-STAY-white: #F9F9FB;
+  --cl-White-60: #FFFFFF99;
+  --cl-White-18: #FFFFFF2E;
+  --cl-White-10: #FFFFFF1A;
+  --cl-Grey: #60BD6A;
+  --cl-Lines: #CCCDDB;
+  --cl-Lines-Light: #CCCDDB80;
+  --cl-Input-lines: #CCCDDB;
+  --cl-Text: #120E1A;
+}
 
 [data-theme='dark'][data-brand='blue'] {
+  --cl-STAY-Darko: #06090F;
+  --cl-MainAccent: #2B75ED;
+  --cl-MainAccent-20: #2B75ED33;
+  --cl-MainAccent-light: #357BEE;
+  --cl-SecondAccent: #1C2D4A;
+  --cl-SecondAccent-08: #1C2D4A14;
+  --cl-SecondAccent-light: #23395C;
+  --cl-ThirdAccent: #FF59BD;
+  --cl-BG-base: #06090F;
+  --cl-BG-0: #E6EBF508;
+  --cl-BG-1: #E6EBF50D;
+  --cl-BG-2: #E6EBF50F;
+  --cl-STAY-white: #F9F9FB;
+  --cl-White-60: #E6EBF512;
+  --cl-White-18: #E6EBF52E;
+  --cl-White-10: #E6EBF512;
+  --cl-Grey: #A0A4B1;
+  --cl-Lines: #E6EBF533;
+  --cl-Lines-Light: #E6EBF50F;
+  --cl-Input-lines: #E6EBF500;
+  --cl-Text: #E6EBF5;
 }
+
 [data-theme='light'][data-brand='blue'] {
+  --cl-STAY-Darko: #06090F;
+  --cl-MainAccent: #2B75ED;
+  --cl-MainAccent-20: #2B75ED33;
+  --cl-MainAccent-light: #357BEE;
+  --cl-SecondAccent: #1C2D4A;
+  --cl-SecondAccent-08: #1C2D4A14;
+  --cl-SecondAccent-light: #23395C;
+  --cl-ThirdAccent: #FF59BD; 
+  --cl-BG-base: #E6EBF5;
+  --cl-BG-0: #E6EBF5;
+  --cl-BG-1: #EEF1F7;
+  --cl-BG-2: #F9F9FB;
+  --cl-STAY-white: #F9F9FB;
+  --cl-White-60: #FFFFFF99;
+  --cl-White-18: #FFFFFF2E;
+  --cl-White-10: #FFFFFF1A;
+  --cl-Grey: #676D7E;
+  --cl-Lines: #CCCDDB;
+  --cl-Lines-Light: #CCCDDB80;
+  --cl-Input-lines: #CCCDDB;
+  --cl-Text: #120E1A;
 }
+
 [data-theme='dark'][data-brand='orange'] {
 }
 [data-theme='light'][data-brand='orange'] {
